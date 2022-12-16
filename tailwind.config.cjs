@@ -8,18 +8,54 @@ module.exports = {
     extend: {
       colors: {
         light: {
-          background: "#F0E9D2",
-          text: "#181D31",
+          background: {
+            100: "#FEFDF7",
+            200: "#FDFBF0",
+            300: "#FAF7E7",
+            400: "#F6F1DE",
+            500: "#F0E9D2",
+            600: "#CEC099",
+            700: "#AC9969",
+            800: "#8B7542",
+          },
+          text: {
+            100: "#BAC7EA",
+            200: "#8694C1",
+            300: "#515C83",
+            400: "#181D31",
+            500: "#11152A",
+            600: "#0C0F23",
+            700: "#070A1C",
+            900: "#040617"
+          },
           link: "#678983"
         },
         dark: {
-          background: "#181D31",
-          text: "#F0E9D2",
+          background: {
+            100: "#BAC7EA",
+            200: "#8694C1",
+            300: "#515C83",
+            400: "#181D31",
+            500: "#11152A",
+            600: "#0C0F23",
+            700: "#070A1C",
+            900: "#040617"
+          },
+          text: {
+            100: "#FEFDF7",
+            200: "#FDFBF0",
+            300: "#FAF7E7",
+            400: "#F6F1DE",
+            500: "#F0E9D2",
+            600: "#CEC099",
+            700: "#AC9969",
+            800: "#8B7542",
+          },
           link: "#678983"
         }
       },
       fontFamily: {
-        sans: ["Raleway", "sans-serif"],
+        sans: ["Open Sans", "sans-serif"],
         title: ["Montserrat", "sans-serif"],
       }
     },
