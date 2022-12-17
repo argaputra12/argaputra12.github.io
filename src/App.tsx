@@ -1,9 +1,9 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
 import './index.css'
 import Navbar from './components/Navbar'
 import Experience from './components/Experience'
 import Skill from './components/Skill'
+import Project from './components/Project'
 
 import {  
   SiLaravel,
@@ -68,7 +68,7 @@ function App() {
             </div>
           </section>
 
-          <section className='flex flex-col gap-2 text-justify'>
+          <section className='flex flex-col gap-8 text-justify'>
             <h1 className='text-5xl font-title font-bold '>Experiences</h1>
             <div className='flex flex-col gap-6 py-6'>
               <Experience
@@ -139,7 +139,7 @@ function App() {
               />
             </div>
           </section>
-          <section className='flex flex-col gap-4 text-justify'>
+          <section className='flex flex-col gap-8 text-justify'>
             <h1 className='text-5xl font-title font-bold '>Skills</h1>
             <div className='flex gap-5 py-6 flex-wrap '>
                 <Skill
@@ -150,7 +150,7 @@ function App() {
                 <Skill
                   title="FastAPI"
                   logo={<SiFastapi size={35}/>}
-                  level="Intermediate"
+                  level="Newbie"
                 />
                 <Skill
                   title="ReactJS"
@@ -197,6 +197,80 @@ function App() {
                   logo={<SiJavascript size={35}/>}
                   level="Intermediate"
                 />
+            </div>
+          </section>
+          <section className='flex flex-col gap-8 text-justify'>
+            <h1 className='text-5xl font-title font-bold '>Projects</h1>
+            <div className='flex flex-col gap-8 py-6'>
+              <Project
+                title="E-commerce Website"
+                description="Fashion e-commerce website for selling clothes and accessories, final project for independent study course as a backend developer from Startup Campus"
+                techs={
+                  [
+                    "Fastapi",
+                    "PostgreSQL",
+                    "Docker",
+                    "SQLAlchemy",
+                    "Python",
+                    "Pytest",
+                  ]
+                }
+                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+              />
+              <Project
+                title="Admin Dashboard"
+                description='An administrative dashboard is a web-based application that provides an interface for managing and monitoring the various aspects of a business, organization, or website.'
+                techs={
+                  [
+                    "ReactJS",
+                    "TailwindCSS",
+                    "Material-UI",
+                    "JavaScript",
+                  ]
+                }
+                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+              />
+              <Project
+                title='Todo App'
+                description='The To Do App project is a tool for individuals to manage and track their daily tasks and responsibilities. It allows users to create and organize their to do lists, and mark tasks as complete when finished.'
+                techs={
+                  [
+                    "ReactJS",
+                    "TailwindCSS",
+                    "MongoDB",
+                    "ExpressJS",
+                    "NextJS",
+                    "TypeScript",
+                  ]
+                }
+                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+              />
+              <Project
+                title='Employee Leave Management'
+                description='The employee leave management project is a software solution designed to streamline and automate the process of tracking and approving employee leave requests.'
+                techs={
+                  [
+                    "Laravel",
+                    "MySQL",
+                    "TailwindCSS",
+                    "PHP",
+                  ]
+                }
+                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+              />
+              <Project
+                title='Invoice Web App'
+                description='The invoice web app project aims to streamline the billing process for businesses, saving time and reducing the risk of errors.'
+                techs={
+                  [
+                    "Laravel",
+                    "MySQL",
+                    "TailwindCSS",
+                    "PHP",
+                  ]
+                }
+                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+              />
             </div>
           </section>
         </main>

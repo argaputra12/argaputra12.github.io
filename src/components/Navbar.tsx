@@ -4,7 +4,7 @@ import { DarkModeSwitch } from "react-toggle-dark-mode";
 
 const Navbar = () => {
     const section = [
-        'hello', 'projects', 'experience', 'contact'
+        'hello', 'education', 'experience', 'skills', 'projects', 'contact'
     ]
     const username = "Argaputra12"
 
