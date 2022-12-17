@@ -16,14 +16,21 @@ import {
   SiCss3,
   SiJavascript,
   SiTypescript,
-  SiTailwindcss
+  SiTailwindcss,
+  SiGithub,
+  SiInstagram,
+  SiGmail
 } from 'react-icons/si';
+
 import {
-  HiOutlineCode
+  HiOutlineCode,
 } from 'react-icons/hi'
+
 import {
-  BsPeople
+  BsPeople,
+  BsLinkedin
 } from 'react-icons/bs'
+
 import {
   SlGraduation
 } from 'react-icons/sl'
@@ -68,7 +75,7 @@ function App() {
             </div>
           </section>
 
-          <section className='flex flex-col gap-8 text-justify'>
+          <section className='flex flex-col gap-2 text-justify'>
             <h1 className='text-5xl font-title font-bold '>Experiences</h1>
             <div className='flex flex-col gap-6 py-6'>
               <Experience
@@ -139,7 +146,7 @@ function App() {
               />
             </div>
           </section>
-          <section className='flex flex-col gap-8 text-justify'>
+          <section className='flex flex-col gap-2 text-justify'>
             <h1 className='text-5xl font-title font-bold '>Skills</h1>
             <div className='flex gap-5 py-6 flex-wrap '>
                 <Skill
@@ -199,7 +206,7 @@ function App() {
                 />
             </div>
           </section>
-          <section className='flex flex-col gap-8 text-justify'>
+          <section className='flex flex-col gap-2 text-justify'>
             <h1 className='text-5xl font-title font-bold '>Projects</h1>
             <div className='flex flex-col gap-8 py-6'>
               <Project
@@ -215,7 +222,7 @@ function App() {
                     "Pytest",
                   ]
                 }
-                image={<img src="../public/projects/e-commerce-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                image={<img src="/projects/e-commerce-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
               <Project
                 title="Admin Dashboard"
@@ -228,7 +235,7 @@ function App() {
                     "JavaScript",
                   ]
                 }
-                image={<img src="../public/projects/admin-dashboard.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                image={<img src="/projects/admin-dashboard.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
               <Project
                 title='Todo App'
@@ -243,7 +250,7 @@ function App() {
                     "TypeScript",
                   ]
                 }
-                image={<img src="../public/projects/to-do-app.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                image={<img src="/projects/to-do-app.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
               <Project
                 title='Employee Leave Management'
@@ -256,7 +263,7 @@ function App() {
                     "PHP",
                   ]
                 }
-                image={<img src="/public/projects/employee-leave-management.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                image={<img src="/projects/employee-leave-management.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
                 />
               <Project
                 title='Invoice Web App'
@@ -269,7 +276,7 @@ function App() {
                     "PHP",
                   ]
                 }
-                image={<img src="../public/projects/invoice-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                image={<img src="/projects/invoice-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
               <Project
                 title="Geo Information System Website"
@@ -283,12 +290,28 @@ function App() {
                     "LeafletJS",
                   ]
                 }
-                image={<img src="../public/projects/geo-information-system-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                image={<img src="/projects/geo-information-system-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
             </div>
           </section>
-          <section className='flex flex-col gap-8 text-justify'>
-            <h1 className='text-5xl font-title font-bold '>Contact</h1>
+          <section className='flex flex-col gap-2 text-justify mt-20'>
+            <h1 className='text-5xl font-title font-bold '>Interested in me?</h1>
+            <div className='flex flex-col gap-2 py-6'>
+                <div>
+                  If you are interested in me, you can contact me via email or social media.
+                  I do not mind if you want to ask questions or just want to say hello.
+                  I do reply to all emails and messages, so dont hesitate to contact me.
+                </div>
+                <div>                
+                  I will be happy to help you.
+                </div>
+            </div>
+            <div className='flex gap-5'>
+                <a href="https://github.com/argaputra12/" className="hover:cursor-pointer"><SiGithub size={30}/></a>
+                <a href="https://www.linkedin.com/in/arputwp/" className="hover:cursor-pointer"><BsLinkedin size={30}/></a>
+                <a href="https://www.instagram.com/arputwp/" className="hover:cursor-pointer"><SiInstagram size={30}/></a>
+                <a href="mailto:argap1738@gmail.com" className="hover:cursor-pointer"><SiGmail size={30}/></a>
+            </div>
           </section>
         </main>
       </div>
