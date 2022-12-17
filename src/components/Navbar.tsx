@@ -16,9 +16,9 @@ const Navbar = () => {
 
     return(
         <nav className="flex items-center justify-between flex-wrap bg-light-background-500 p-6 rounded-b-lg mb-6 border-2 border-light-text-300">
-            <div className="username text-light-text-400">
+            {/* <div className="username text-light-text-400">
                 <span className="font-semibold text-lg">{username}</span>
-            </div>
+            </div> */}
             <div className="text-sans relative flex place-content-between items-center gap-8 py-2 px-6 text-base font-semibold transition-all sm:w-min lg:py-2">
                 {section.map((section, index) => (
                     <a key={index}
