@@ -41,7 +41,7 @@ function App() {
             <div>
               I'm {" "}
               <span className="font-semibold opacity-80">Arga Putra</span>, an undergraduated computer science student in {" "} 
-              <a href="https://uns.ac.id/id/" className="text-light-link hover:text-light-text-400">Sebelas Maret University</a> 
+              <a href="https://uns.ac.id/id/" target="_blank" className="text-light-link hover:text-light-text-400">Sebelas Maret University</a> 
               . I am very passionate about 
               the world of web development and have developed my skills through various projects and experiences.
               I am glad to share my works and experiences with you. 
@@ -215,7 +215,7 @@ function App() {
                     "Pytest",
                   ]
                 }
-                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+                image={<img src="../public/projects/e-commerce-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
               <Project
                 title="Admin Dashboard"
@@ -228,7 +228,7 @@ function App() {
                     "JavaScript",
                   ]
                 }
-                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+                image={<img src="../public/projects/admin-dashboard.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
               <Project
                 title='Todo App'
@@ -243,7 +243,7 @@ function App() {
                     "TypeScript",
                   ]
                 }
-                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+                image={<img src="../public/projects/to-do-app.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
               <Project
                 title='Employee Leave Management'
@@ -256,8 +256,8 @@ function App() {
                     "PHP",
                   ]
                 }
-                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
-              />
+                image={<img src="/public/projects/employee-leave-management.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                />
               <Project
                 title='Invoice Web App'
                 description='The invoice web app project aims to streamline the billing process for businesses, saving time and reducing the risk of errors.'
@@ -269,9 +269,26 @@ function App() {
                     "PHP",
                   ]
                 }
-                image={<img src="https://via.placeholder.com/280x210.png" alt="Ruang Berproses" className='object-cover rounded-md'/>}
+                image={<img src="../public/projects/invoice-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+              />
+              <Project
+                title="Geo Information System Website"
+                description="A website that provides information about the location of the cities in Indonesia which is integrated with a map"
+                techs={
+                  [
+                    "Laravel",
+                    "MySQL",
+                    "TailwindCSS",
+                    "PHP",
+                    "LeafletJS",
+                  ]
+                }
+                image={<img src="../public/projects/geo-information-system-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
               />
             </div>
+          </section>
+          <section className='flex flex-col gap-8 text-justify'>
+            <h1 className='text-5xl font-title font-bold '>Contact</h1>
           </section>
         </main>
       </div>
