@@ -19,7 +19,7 @@ const Project = ({title, techs, description, image}: Props) => {
                 <p className="text-sm">{description}</p>
                 <div className="flex gap-4 flex-wrap mt-3">
                     {techs.map((tech, index) => (
-                        <span key={index} className="text-sm font-semibold bg-light-background-300 px-2 py-1 rounded-lg">{tech}</span>
+                        <span key={index} className="text-sm font-semibold bg-light-background-300 px-2 py-1 rounded-lg dark:bg-dark-background-300">{tech}</span>
                     ))}
                 </div>
             </div>
