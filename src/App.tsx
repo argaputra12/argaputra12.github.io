@@ -50,7 +50,7 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
-      <div className="bg-light-background-200 text-light-text-400 dark:text-dark-text-400 dark:bg-dark-background-200">
+      <div className="bg-light-background-200 text-light-text-400 dark:text-dark-text-400 dark:bg-dark-background-200 duration-200">
         <div className='flex flex-col mx-auto min-h-screen max-w-[64rem] font-sans'>
           <Navbar theme={theme} setTheme={setTheme}/>
           <main className='flex flex-col bg-light-background-500 border-2 rounded-md border-light-text-300 text-lg py-6 px-10 gap-10 mb-24 mt-6 dark:bg-dark-background-500 dark:border-dark-text-300'>
@@ -217,9 +217,9 @@ function App() {
                   />
               </div>
             </section>
-            <section className='flex flex-col gap-2 text-justify' id='projects'>
+            <section className='flex flex-col gap-2 text-justify mb-[8rem] sm:mb-auto' id='projects'>
               <h1 className='text-5xl font-title font-bold '>Projects</h1>
-              <div className='flex flex-col gap-8 py-6'>
+              <div className='flex flex-col gap-[16.5rem] sm:gap-10 py-6'>
                 <Project
                   title="E-commerce Website"
                   description="Fashion e-commerce website for selling clothes and accessories, final project for independent study course as a backend developer from Startup Campus"

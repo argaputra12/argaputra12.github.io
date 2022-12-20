@@ -8,7 +8,7 @@ type Props = {
 
 const Skill = ({title, level, logo}: Props) => {
     return(
-        <div className='flex flex-row gap-5 w-1/4'>
+        <div className='flex flex-row gap-5 w-1/2 sm:w-1/4'>
             <div className="py-2">{logo}</div>
             <div className='flex flex-col'>
                 <span className='font-semibold text-lg'>{title}</span>

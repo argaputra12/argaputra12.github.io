@@ -11,7 +11,7 @@ type Props = {
 
 const Navbar = ({theme, setTheme} : Props)  => {
     const section = [
-        'hello', 'education', 'experiences', 'skills', 'projects', 'contact'
+        'education', 'experiences', 'skills', 'projects', 'contact'
     ]
     const username = "Argaputra12"
     
@@ -20,11 +20,11 @@ const Navbar = ({theme, setTheme} : Props)  => {
     };
 
     return(
-        <nav className="flex items-center justify-between flex-wrap bg-light-background-500 p-6 rounded-b-lg mb-6 border-2 border-t-0 border-light-text-300 sticky top-0 dark:bg-dark-background-500 dark:border-dark-text-300 ho ">
+        <nav className="flex items-center justify-between flex-wrap bg-light-background-500 p-6 rounded-b-lg border-2 border-t-0 border-light-text-300 sticky top-0 dark:bg-dark-background-500 dark:border-dark-text-300 z-50 ">
             {/* <div className="username text-light-text-400">
                 <span className="font-semibold text-lg">{username}</span>
             </div> */}
-            <div className="text-sans relative flex place-content-between items-center gap-8 py-2 px-6 text-base font-semibold transition-all sm:w-min lg:py-2 ">
+            <div className="text-sans relative flex sm:place-content-between items-center gap-8 py-2 px-6 sm:text-base text-md font-semibold flex-wrap sm:flex-nowrap transition-all sm:w-min lg:py-2 w-4/5 md:w-auto">
                 {section.map((section, index) => (
                     <Link
                         activeClass="active"
@@ -45,7 +45,8 @@ const Navbar = ({theme, setTheme} : Props)  => {
                 checked={theme === 'dark'}
                 onChange={toggleDarkMode}
                 size={40}
-            />
+                className="w-1/6 sm:w-auto"
+                />
         </nav>
     )
 }
