@@ -159,7 +159,7 @@ function App() {
             </section>
             <section className='flex flex-col gap-2 text-justify' id='skills'>
               <h1 className='text-5xl font-title font-bold '>Skills</h1>
-              <div className='flex gap-5 py-6 flex-wrap '>
+              <div className='flex gap-9 py-6 flex-wrap'>
                   <Skill
                     title="Laravel"
                     logo={<SiLaravel size={35}/>}
@@ -306,7 +306,7 @@ function App() {
               </div>
             </section>
             <section className='flex flex-col gap-2 text-justify mt-32 mb-10' id='contact'>
-              <h1 className='text-5xl font-title font-bold '>Interested in me?</h1>
+              <h1 className='text-4xl font-title font-bold sm:text-5xl'>Interested in me?</h1>
               <div className='flex flex-col gap-2 py-6'>
                   <div>
                     If you are interested in me, you can contact me via email or social media.
@@ -318,10 +318,10 @@ function App() {
                   </div>
               </div>
               <div className='flex gap-5'>
-                  <a href="https://github.com/argaputra12/" className="hover:cursor-pointer"><SiGithub size={30}/></a>
-                  <a href="https://www.linkedin.com/in/arputwp/" className="hover:cursor-pointer"><BsLinkedin size={30}/></a>
-                  <a href="https://www.instagram.com/arputwp/" className="hover:cursor-pointer"><SiInstagram size={30}/></a>
-                  <a href="mailto:argap1738@gmail.com" className="hover:cursor-pointer"><SiGmail size={30}/></a>
+                  <a href="https://github.com/argaputra12/" target="_blank" className="hover:cursor-pointer"><SiGithub size={30}/></a>
+                  <a href="https://www.linkedin.com/in/arputwp/" target="_blank" className="hover:cursor-pointer"><BsLinkedin size={30}/></a>
+                  <a href="https://www.instagram.com/arputwp/" target="_blank" className="hover:cursor-pointer"><SiInstagram size={30}/></a>
+                  <a href="mailto:argap1738@gmail.com" target="_blank" className="hover:cursor-pointer"><SiGmail size={30}/></a>
               </div>
             </section>
           </main>
