@@ -51,10 +51,10 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
-      <div className="bg-light-background-200 text-light-text-400 dark:text-dark-text-400 dark:bg-dark-background-400 duration-200">
+      <div className="bg-light-background-200 text-light-text-400 dark:text-dark-text-400 dark:bg-dark-background-300 duration-200">
         <div className='flex flex-col mx-auto min-h-screen max-w-[64rem] font-sans'>
           <Navbar theme={theme} setTheme={setTheme}/>
-          <main className='flex flex-col bg-light-background-500 border-2 rounded-lg border-light-text-300 text-lg py-6 px-10 gap-10 mb-24 mt-6 dark:bg-dark-background-500 dark:border-dark-text-300'>
+          <main className='flex flex-col bg-light-background-300 border-2 rounded-lg border-light-text-300 text-lg py-6 px-10 gap-10 mb-24 mt-6 dark:bg-dark-background-400 dark:border-dark-text-300'>
             <section className='flex flex-col gap-2 text-justify mt-5' id='hello'>
               <h1 className='text-xl font-bold mb-2'>Hi, there!</h1>
               <div>
@@ -314,7 +314,7 @@ function App() {
             </section>
             <section className='flex flex-col gap-2 text-justify sm:mt-32 mb-10' id='contact'>
               <h1 className='text-4xl font-title font-bold sm:text-5xl'>Interested in me?</h1>
-              <div className='flex flex-col gap-2 py-6'>
+              <div className='flex flex-col gap-2'>
                   <div>
                     If you are interested in me, you can contact me via email or social media.
                     I do not mind if you want to ask questions or just want to say hello.

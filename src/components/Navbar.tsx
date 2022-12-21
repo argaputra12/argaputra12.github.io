@@ -42,7 +42,7 @@ const Navbar = ({theme, setTheme} : Props)  => {
                             duration={500}
                             key={index}
                         >
-                            <span className="hover:text-light-text-400 uppercase hover:cursor-pointer dark:hover:text-dark-text-400">{section}</span>
+                            <span className="uppercase hover:cursor-pointer hover:opacity-80 duration-200">{section}</span>
                         </Link>
                     )))
                     :
@@ -56,7 +56,7 @@ const Navbar = ({theme, setTheme} : Props)  => {
                             duration={500}
                             key={index}
                         >
-                            <span className="hover:text-light-text-400 uppercase hover:cursor-pointer dark:hover:text-dark-text-400">{section}</span>
+                            <span className="uppercase hover:cursor-pointer hover:opacity-80 duration-200">{section}</span>
                         </Link>
                     )))
                 }
