@@ -5,8 +5,8 @@ const useWindowDimensions = () => {
     const hasWindow = typeof window !== "undefined";
 
     const getWindowDimensions = () => {
-        const width = hasWindow ? window.innerWidth : null;
-        const height = hasWindow ? window.innerHeight : null;
+        const width = window.innerWidth;
+        const height = window.innerHeight;
         return {
             width,
             height

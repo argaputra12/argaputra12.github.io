@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Experience from './components/Experience'
 import Skill from './components/Skill'
 import Project from './components/Project'
+import React from 'react'
 
 import {  
   SiLaravel,

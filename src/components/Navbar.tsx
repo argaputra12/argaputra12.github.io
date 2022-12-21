@@ -12,7 +12,7 @@ type Props = {
 
 const Navbar = ({theme, setTheme} : Props)  => {
     const section = [
-        'education', 'experiences', 'skills', 'projects', 'contact'
+        'hello', 'education', 'experiences', 'skills', 'projects', 'contact'
     ]
     const phoneSection = [
         'experiences', 'skills', 'projects'
@@ -23,7 +23,7 @@ const Navbar = ({theme, setTheme} : Props)  => {
         setTheme(checked ? 'dark' : 'light');
     };
 
-    const { height, width} = useWindowDimensions();
+    const {height, width} = useWindowDimensions();
 
     return(
         <nav className="flex items-center justify-between flex-wrap bg-light-background-500 p-6 rounded-b-lg border-2 border-t-0 border-light-text-300 sticky top-0 dark:bg-dark-background-500 dark:border-dark-text-300 z-50 ">
@@ -69,6 +69,7 @@ const Navbar = ({theme, setTheme} : Props)  => {
                         checked={theme === 'dark'}
                         onChange={toggleDarkMode}
                         className="w-1/6 sm:w-auto"
+                        size={40}
                         />
                 ) : null
             }            
