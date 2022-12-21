@@ -10,7 +10,7 @@ type Props = {
 
 const Project = ({title, techs, description, image}: Props) => {
     return (
-        <div className="flex gap-6 h-[14rem] flex-col sm:flex-row ">
+        <div className="flex gap-6 flex-col sm:flex-row ">
             {image}
             <div className="flex flex-col gap-4 sm:w-1/2 w-full">
                 <h1 className="text-2xl font-semibold">{title}</h1>

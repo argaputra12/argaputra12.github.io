@@ -26,11 +26,11 @@ const Navbar = ({theme, setTheme} : Props)  => {
     const {height, width} = useWindowDimensions();
 
     return(
-        <nav className="flex items-center justify-between flex-wrap bg-light-background-500 p-6 rounded-b-lg border-2 border-t-0 border-light-text-300 sticky top-0 dark:bg-dark-background-500 dark:border-dark-text-300 z-50 ">
+        <nav className="flex items-center justify-between flex-wrap bg-light-background-500 p-3 sm:p-5 rounded-b-lg border-2 border-t-0 border-light-text-300 sticky top-0 dark:bg-dark-background-500 dark:border-dark-text-300 z-50 ">
             {/* <div className="username text-light-text-400">
                 <span className="font-semibold text-lg">{username}</span>
             </div> */}
-            <div className="text-sans relative flex place-content-between items-center gap-8 py-2 px-6 sm:text-base text-md font-semibold flex-wrap sm:flex-nowrap transition-all lg:py-2 sm:w-4/5 w-full">
+            <div className="text-sans relative flex place-content-between items-center gap-8 py-2 px-6 sm:text-base text-sm font-semibold flex-wrap sm:flex-nowrap transition-all lg:py-2 sm:w-4/5 w-full">
                 {width > 768 ? (
                     section.map((section, index) => (
                         <Link

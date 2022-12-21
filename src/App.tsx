@@ -38,35 +38,41 @@ import {
 
 function App() {
 
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     if (
       window.matchMedia &&
       window.matchMedia('(prefers-color-scheme: dark)').matches
     ) {
-      setTheme('dark');
+      setTheme('light');
     }
   }, []);
 
   return (
     <div className={`App ${theme}`}>
-      <div className="bg-light-background-200 text-light-text-400 dark:text-dark-text-400 dark:bg-dark-background-200 duration-200">
+      <div className="bg-light-background-200 text-light-text-400 dark:text-dark-text-400 dark:bg-dark-background-400 duration-200">
         <div className='flex flex-col mx-auto min-h-screen max-w-[64rem] font-sans'>
           <Navbar theme={theme} setTheme={setTheme}/>
-          <main className='flex flex-col bg-light-background-500 border-2 rounded-md border-light-text-300 text-lg py-6 px-10 gap-10 mb-24 mt-6 dark:bg-dark-background-500 dark:border-dark-text-300'>
-            <section className='flex flex-col gap-2 text-justify mt-3' id='hello'>
+          <main className='flex flex-col bg-light-background-500 border-2 rounded-lg border-light-text-300 text-lg py-6 px-10 gap-10 mb-24 mt-6 dark:bg-dark-background-500 dark:border-dark-text-300'>
+            <section className='flex flex-col gap-2 text-justify mt-5' id='hello'>
               <h1 className='text-xl font-bold mb-2'>Hi, there!</h1>
               <div>
                 I'm {" "}
-                <span className="font-semibold opacity-80">Arga Putra</span>, an undergraduated computer science student in {" "} 
-                <a href="https://uns.ac.id/id/" target="_blank" className="text-light-link hover:text-light-text-400">Sebelas Maret University</a> 
+                <span className="font-semibold">Arga Putra</span>, an undergraduated computer science student in {" "} 
+                <a href="https://uns.ac.id/id/" target="_blank" className="text-light-link hover:text-opacity-80 duration-200">Sebelas Maret University</a> 
                 . I am very passionate about 
                 the world of web development and have developed my skills through various projects and experiences.
                 I am glad to share my works and experiences with you. 
                 I hope this website can provide useful information for you and be a source of valuable inspiration.
+                <br />
                 Don't forget your coffee!
-              </div>       
+              </div>
+              <div className='mt-5'>
+                <a href="/Arga-CV.pdf" target="_blank">
+                  <button className="rounded-md border-2 border-light-text-300 py-2 px-4 hover:bg-light-background-600 duration-200 dark:border-dark-text-300 dark:hover:bg-dark-background-300">Download CV</button>
+                </a>
+              </div>
             </section>
             <section className='flex flex-col gap-2 mt-10 text-justify' id='education'>
               <h1 className='text-5xl font-title font-bold '>Education</h1>
@@ -218,9 +224,9 @@ function App() {
                   />
               </div>
             </section>
-            <section className='flex flex-col gap-2 text-justify mb-[8rem] sm:mb-auto' id='projects'>
+            <section className='flex flex-col gap-2 text-justify ' id='projects'>
               <h1 className='text-5xl font-title font-bold '>Projects</h1>
-              <div className='flex flex-col gap-[16.5rem] sm:gap-10 py-6'>
+              <div className='flex flex-col gap-12 py-6'>
                 <Project
                   title="E-commerce Website"
                   description="Fashion e-commerce website for selling clothes and accessories, final project for independent study course as a backend developer from Startup Campus"
@@ -306,7 +312,7 @@ function App() {
                 />
               </div>
             </section>
-            <section className='flex flex-col gap-2 text-justify mt-32 mb-10' id='contact'>
+            <section className='flex flex-col gap-2 text-justify sm:mt-32 mb-10' id='contact'>
               <h1 className='text-4xl font-title font-bold sm:text-5xl'>Interested in me?</h1>
               <div className='flex flex-col gap-2 py-6'>
                   <div>
