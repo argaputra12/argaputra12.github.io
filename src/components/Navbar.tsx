@@ -26,7 +26,7 @@ const Navbar = ({theme, setTheme} : Props)  => {
     const {height, width} = useWindowDimensions();
 
     return(
-        <nav className="flex items-center justify-between flex-wrap bg-light-background-500 p-3 sm:p-5 rounded-b-lg border-2 border-t-0 border-light-text-300 sticky top-0 dark:bg-dark-background-500 dark:border-dark-text-300 z-50 ">
+        <nav className="flex items-center justify-between flex-wrap bg-light-background-400 p-3 sm:p-5 rounded-b-lg border-2 border-t-0 border-light-text-300 sticky top-0 dark:bg-dark-background-500 dark:border-dark-text-300 z-50 ">
             {/* <div className="username text-light-text-400">
                 <span className="font-semibold text-lg">{username}</span>
             </div> */}
