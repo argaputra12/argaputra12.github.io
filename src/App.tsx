@@ -313,7 +313,7 @@ function App() {
               </div>
             </section>
             <section className='flex flex-col gap-2 text-justify sm:mt-32 mb-10' id='contact'>
-              <h1 className='text-4xl font-title font-bold sm:text-5xl'>Interested in me?</h1>
+              <h1 className='text-4xl font-title font-bold sm:text-5xl mb-2'>Interested in me?</h1>
               <div className='flex flex-col gap-2'>
                   <div>
                     If you are interested in me, you can contact me via email or social media.
@@ -324,7 +324,7 @@ function App() {
                     I will be happy to help you.
                   </div>
               </div>
-              <div className='flex gap-5'>
+              <div className='flex gap-5 mt-5'>
                   <a href="https://github.com/argaputra12/" target="_blank" className="hover:cursor-pointer"><SiGithub size={30}/></a>
                   <a href="https://www.linkedin.com/in/arputwp/" target="_blank" className="hover:cursor-pointer"><BsLinkedin size={30}/></a>
                   <a href="https://www.instagram.com/arputwp/" target="_blank" className="hover:cursor-pointer"><SiInstagram size={30}/></a>
