@@ -97,6 +97,20 @@ function App() {
               <h1 className='text-5xl font-title font-bold '>Experiences</h1>
               <div className='flex flex-col gap-6 py-6'>
                 <Experience
+                  title="Internship Backend Engineer"
+                  company="Startup Campus"
+                  date="Aug 2022 - Des 2022"
+                  description={
+                    [
+                      "First winner of final project, developing backend side of e-commerce website",
+                      "Designing and developing a strong and well-integrated backend system",
+                      "Iterating and maintaining process of the application",
+                      "Working with other teams to complete projects on time and to high quality standards"
+                    ]
+                  }
+                  logo={<HiOutlineCode size={35}/>}
+                />
+                <Experience
                   title="Internship Software Engineer"
                   company="Directorate of Academic Reputation and Student Affairs"
                   date="Jul 2022 - Present"
