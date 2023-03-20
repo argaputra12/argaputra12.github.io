@@ -139,6 +139,19 @@ function App() {
                   logo={<HiOutlineCode size={35}/>}
                 />
                 <Experience
+                  title="MSIB Ambassador Batch 4"
+                  company="Universitas Sebelas Maret"
+                  date="Des 2022 - Feb 2023"
+                  description={
+                    [
+                      "Promoting MSIB program to students and other stakeholders",
+                      "Providing information about MSIB program",
+                      "Helping students to apply for MSIB program",
+                    ]
+                  }
+                  logo={<BsPeople size={35}/>}
+                />
+                <Experience
                   title="Staff of Human Resource Development"
                   company="Himpunan Mahasiswa Informatika UNS"
                   date="Jan 2021 - Oct 2021"
