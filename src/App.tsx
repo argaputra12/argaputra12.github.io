@@ -97,6 +97,19 @@ function App() {
               <h1 className='text-5xl font-title font-bold '>Experiences</h1>
               <div className='flex flex-col gap-6 py-6'>
                 <Experience
+                  title="Chief Technology Officer"
+                  company="Craftive.id"
+                  date="Jul 2023 - Nov 2023"
+                  description={
+                    [
+                      "Developing and maintaining the company's website",
+                      "Managing the company's IT infrastructure",
+                      "Managing the company's IT team"
+                    ]
+                  }
+                  logo={<HiOutlineCode size={35}/>}
+                />
+                <Experience
                   title="Internship Backend Engineer"
                   company="Startup Campus"
                   date="Aug 2022 - Des 2022"
@@ -113,7 +126,7 @@ function App() {
                 <Experience
                   title="Internship Software Engineer"
                   company="Directorate of Academic Reputation and Student Affairs"
-                  date="Jul 2022 - Present"
+                  date="Jul 2022 - Nov 2022"
                   description={
                     [
                       "Developing backend web application using Laravel",
@@ -127,7 +140,7 @@ function App() {
                 <Experience
                   title="Internship Backend Engineer"
                   company="Ruang Berproses"
-                  date="Aug 2022 - Present"
+                  date="Aug 2022 - Dec 2023"
                   description={
                     [
                       "Developing backend web application using Laravel",
@@ -141,7 +154,7 @@ function App() {
                 <Experience
                   title="MSIB Ambassador Batch 4"
                   company="Universitas Sebelas Maret"
-                  date="Des 2022 - Feb 2023"
+                  date="Dec 2022 - Feb 2023"
                   description={
                     [
                       "Promoting MSIB program to students and other stakeholders",
