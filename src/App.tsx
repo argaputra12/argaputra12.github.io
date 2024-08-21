@@ -20,8 +20,11 @@ import {
   SiTailwindcss,
   SiGithub,
   SiInstagram,
-  SiGmail
+  SiGmail,
+  SiVuedotjs
 } from 'react-icons/si';
+
+import { TbBrandGolang } from "react-icons/tb";
 
 import {
   HiOutlineCode,
@@ -213,9 +216,19 @@ function App() {
                   level="Intermediate"
                 />
                 <Skill
+                  title='Golang'
+                  logo={<TbBrandGolang size={35} />}
+                  level="Intermediate"
+                />
+                <Skill
                   title="FastAPI"
                   logo={<SiFastapi size={35} />}
                   level="Newbie"
+                />
+                <Skill
+                  title='VueJS'
+                  logo={<SiVuedotjs size={35} />}
+                  level="Intermediate"
                 />
                 <Skill
                   title="ReactJS"
