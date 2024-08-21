@@ -293,7 +293,7 @@ function App() {
                       "Pytest",
                     ]
                   }
-                  image={<img src="/projects/e-commerce-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                  image={<img src="/projects/e-commerce-website.png" alt="E-commerce Website" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title="Admin Dashboard"
@@ -306,7 +306,7 @@ function App() {
                       "JavaScript",
                     ]
                   }
-                  image={<img src="/projects/admin-dashboard.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                  image={<img src="/projects/admin-dashboard.png" alt="Admin Dashboard" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title='Employee Leave Management'
@@ -319,7 +319,7 @@ function App() {
                       "PHP",
                     ]
                   }
-                  image={<img src="/projects/employee-leave-management.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                  image={<img src="/projects/employee-leave-management.png" alt="Employee Management" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title='Invoice Web App'
@@ -332,7 +332,7 @@ function App() {
                       "PHP",
                     ]
                   }
-                  image={<img src="/projects/invoice-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                  image={<img src="/projects/invoice-website.png" alt="Invoice Website" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title='Clinic Management'
@@ -345,7 +345,7 @@ function App() {
                       "PHP",
                     ]
                   }
-                  image={<img src="/projects/clinic-management.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                  image={<img src="/projects/clinic-management.png" alt="Clinic Management" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title='Todo App'
@@ -360,7 +360,7 @@ function App() {
                       "TypeScript",
                     ]
                   }
-                  image={<img src="/projects/to-do-app.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                  image={<img src="/projects/to-do-app.png" alt="Todo App" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title="Geo Information System Website"
@@ -374,7 +374,7 @@ function App() {
                       "LeafletJS",
                     ]
                   }
-                  image={<img src="/projects/geo-information-system-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                  image={<img src="/projects/geo-information-system-website.png" alt="GIS Website" className='w-[380px] object-cover rounded-md' />}
                 />
               </div>
             </section>
