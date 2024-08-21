@@ -6,7 +6,7 @@ import Skill from './components/Skill'
 import Project from './components/Project'
 import React from 'react'
 
-import {  
+import {
   SiLaravel,
   SiFastapi,
   SiReact,
@@ -53,17 +53,17 @@ function App() {
     <div className={`App ${theme}`}>
       <div className="bg-light-background-200 text-light-text-400 dark:text-dark-text-400 dark:bg-dark-background-300 duration-200">
         <div className='flex flex-col mx-auto min-h-screen max-w-[64rem] font-sans'>
-          <Navbar theme={theme} setTheme={setTheme}/>
+          <Navbar theme={theme} setTheme={setTheme} />
           <main className='flex flex-col bg-light-background-300 border-2 rounded-lg border-light-text-300 text-lg py-6 px-10 gap-10 mb-24 mt-6 dark:bg-dark-background-400 dark:border-dark-text-300'>
             <section className='flex flex-col gap-2 text-justify mt-5' id='hello'>
               <h1 className='text-xl font-bold mb-2'>Hi, there!</h1>
               <div>
                 I'm {" "}
-                <span className="font-semibold">Arga Putra</span>, an undergraduated computer science student in {" "} 
-                <a href="https://uns.ac.id/id/" target="_blank" className="text-light-link hover:text-opacity-80 duration-200">Sebelas Maret University</a> 
-                . I am very passionate about 
+                <span className="font-semibold">Arga Putra</span>, an undergraduated computer science student in {" "}
+                <a href="https://uns.ac.id/id/" target="_blank" className="text-light-link hover:text-opacity-80 duration-200">Sebelas Maret University</a>
+                . I am very passionate about
                 the world of web development and have developed my skills through various projects and experiences.
-                I am glad to share my works and experiences with you. 
+                I am glad to share my works and experiences with you.
                 I hope this website can provide useful information for you and be a source of valuable inspiration.
                 <br />
                 Don't forget your coffee!
@@ -88,7 +88,7 @@ function App() {
                       "Lecture Assistant for Programming Concepts Lab at 2021,"
                     ]
                   }
-                  logo={<SlGraduation size={35}/>}
+                  logo={<SlGraduation size={35} />}
                 />
               </div>
             </section>
@@ -107,7 +107,7 @@ function App() {
                       "Managing the company's IT team"
                     ]
                   }
-                  logo={<HiOutlineCode size={35}/>}
+                  logo={<HiOutlineCode size={35} />}
                 />
                 <Experience
                   title="Internship Backend Engineer"
@@ -121,7 +121,7 @@ function App() {
                       "Working with other teams to complete projects on time and to high quality standards"
                     ]
                   }
-                  logo={<HiOutlineCode size={35}/>}
+                  logo={<HiOutlineCode size={35} />}
                 />
                 <Experience
                   title="Internship Software Engineer"
@@ -135,7 +135,7 @@ function App() {
                       "Developing a geographic information system website using Laravel Blade and LeafletJS",
                     ]
                   }
-                  logo={<HiOutlineCode size={35}/>}
+                  logo={<HiOutlineCode size={35} />}
                 />
                 <Experience
                   title="Internship Backend Engineer"
@@ -149,7 +149,7 @@ function App() {
                       "Developing a geographic information system website using Laravel Blade and LeafletJS",
                     ]
                   }
-                  logo={<HiOutlineCode size={35}/>}
+                  logo={<HiOutlineCode size={35} />}
                 />
                 <Experience
                   title="MSIB Ambassador Batch 4"
@@ -162,7 +162,7 @@ function App() {
                       "Helping students to apply for MSIB program",
                     ]
                   }
-                  logo={<BsPeople size={35}/>}
+                  logo={<BsPeople size={35} />}
                 />
                 <Experience
                   title="Staff of Human Resource Development"
@@ -174,7 +174,7 @@ function App() {
                       "Raise funds given to those who in need",
                     ]
                   }
-                  logo={<BsPeople size={35}/>}
+                  logo={<BsPeople size={35} />}
                 />
                 <Experience
                   title="Staff of General Affairs"
@@ -187,7 +187,7 @@ function App() {
                       "Manage other things needed for PINGFEST 2021"
                     ]
                   }
-                  logo={<BsPeople size={35}/>}
+                  logo={<BsPeople size={35} />}
                 />
                 <Experience
                   title="Group Companion"
@@ -200,68 +200,68 @@ function App() {
                       "Helping prospective students choose a major that aligns with their interests and abilities"
                     ]
                   }
-                  logo={<BsPeople size={35}/>}
+                  logo={<BsPeople size={35} />}
                 />
               </div>
             </section>
             <section className='flex flex-col gap-2 text-justify' id='skills'>
               <h1 className='text-5xl font-title font-bold '>Skills</h1>
               <div className='flex gap-9 py-6 flex-wrap'>
-                  <Skill
-                    title="Laravel"
-                    logo={<SiLaravel size={35}/>}
-                    level="Intermediate"
-                  />
-                  <Skill
-                    title="FastAPI"
-                    logo={<SiFastapi size={35}/>}
-                    level="Newbie"
-                  />
-                  <Skill
-                    title="ReactJS"
-                    logo={<SiReact size={35}/>}
-                    level="Newbie"
-                  />
-                  <Skill
-                    title="MySQL"
-                    logo={<SiMysql size={35}/>}
-                    level="Intermediate"
-                  />
-                  <Skill
-                    title="PostgreSQL"
-                    logo={<SiPostgresql size={35}/>}
-                    level="Newbie"
-                  />
-                  <Skill
-                    title="TailwindCSS"
-                    logo={<SiTailwindcss size={35}/>}
-                    level="Intermediate"
-                  />
-                  <Skill
-                    title="Python"
-                    logo={<SiPython size={35}/>}
-                    level="Intermediate"
-                  />
-                  <Skill
-                    title="TypeScript"
-                    logo={<SiTypescript size={35}/>}
-                    level="Newbie"
-                  />
-                  <Skill
-                    title="HTML5"
-                    logo={<SiHtml5 size={35}/>}
-                    level="Intermediate"
-                  />
-                  <Skill
-                    title="CSS3"
-                    logo={<SiCss3 size={35}/>}
-                    level="Intermediate"
-                  />
-                  <Skill
-                    title="JavaScript"
-                    logo={<SiJavascript size={35}/>}
-                    level="Intermediate"
-                  />
+                <Skill
+                  title="Laravel"
+                  logo={<SiLaravel size={35} />}
+                  level="Intermediate"
+                />
+                <Skill
+                  title="FastAPI"
+                  logo={<SiFastapi size={35} />}
+                  level="Newbie"
+                />
+                <Skill
+                  title="ReactJS"
+                  logo={<SiReact size={35} />}
+                  level="Newbie"
+                />
+                <Skill
+                  title="MySQL"
+                  logo={<SiMysql size={35} />}
+                  level="Intermediate"
+                />
+                <Skill
+                  title="PostgreSQL"
+                  logo={<SiPostgresql size={35} />}
+                  level="Newbie"
+                />
+                <Skill
+                  title="TailwindCSS"
+                  logo={<SiTailwindcss size={35} />}
+                  level="Intermediate"
+                />
+                <Skill
+                  title="Python"
+                  logo={<SiPython size={35} />}
+                  level="Intermediate"
+                />
+                <Skill
+                  title="TypeScript"
+                  logo={<SiTypescript size={35} />}
+                  level="Newbie"
+                />
+                <Skill
+                  title="HTML5"
+                  logo={<SiHtml5 size={35} />}
+                  level="Intermediate"
+                />
+                <Skill
+                  title="CSS3"
+                  logo={<SiCss3 size={35} />}
+                  level="Intermediate"
+                />
+                <Skill
+                  title="JavaScript"
+                  logo={<SiJavascript size={35} />}
+                  level="Intermediate"
+                />
               </div>
             </section>
             <section className='flex flex-col gap-2 text-justify ' id='projects'>
@@ -280,7 +280,7 @@ function App() {
                       "Pytest",
                     ]
                   }
-                  image={<img src="/projects/e-commerce-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                  image={<img src="/projects/e-commerce-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title="Admin Dashboard"
@@ -293,7 +293,46 @@ function App() {
                       "JavaScript",
                     ]
                   }
-                  image={<img src="/projects/admin-dashboard.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                  image={<img src="/projects/admin-dashboard.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                />
+                <Project
+                  title='Employee Leave Management'
+                  description='The employee leave management project is a software solution designed to streamline and automate the process of tracking and approving employee leave requests.'
+                  techs={
+                    [
+                      "Laravel",
+                      "MySQL",
+                      "TailwindCSS",
+                      "PHP",
+                    ]
+                  }
+                  image={<img src="/projects/employee-leave-management.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                />
+                <Project
+                  title='Invoice Web App'
+                  description='The invoice web app project aims to streamline the billing process for businesses, saving time and reducing the risk of errors.'
+                  techs={
+                    [
+                      "Laravel",
+                      "MySQL",
+                      "TailwindCSS",
+                      "PHP",
+                    ]
+                  }
+                  image={<img src="/projects/invoice-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
+                />
+                <Project
+                  title='Clinic Management'
+                  description='The clinic management project is a software solution designed to streamline the clinic management process, saving time and reducing the risk of errors.'
+                  techs={
+                    [
+                      "Laravel",
+                      "MySQL",
+                      "TailwindCSS",
+                      "PHP",
+                    ]
+                  }
+                  image={<img src="/projects/clinic-management.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title='Todo App'
@@ -308,33 +347,7 @@ function App() {
                       "TypeScript",
                     ]
                   }
-                  image={<img src="/projects/to-do-app.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
-                />
-                <Project
-                  title='Employee Leave Management'
-                  description='The employee leave management project is a software solution designed to streamline and automate the process of tracking and approving employee leave requests.'
-                  techs={
-                    [
-                      "Laravel",
-                      "MySQL",
-                      "TailwindCSS",
-                      "PHP",
-                    ]
-                  }
-                  image={<img src="/projects/employee-leave-management.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
-                  />
-                <Project
-                  title='Invoice Web App'
-                  description='The invoice web app project aims to streamline the billing process for businesses, saving time and reducing the risk of errors.'
-                  techs={
-                    [
-                      "Laravel",
-                      "MySQL",
-                      "TailwindCSS",
-                      "PHP",
-                    ]
-                  }
-                  image={<img src="/projects/invoice-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                  image={<img src="/projects/to-do-app.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
                 />
                 <Project
                   title="Geo Information System Website"
@@ -348,27 +361,27 @@ function App() {
                       "LeafletJS",
                     ]
                   }
-                  image={<img src="/projects/geo-information-system-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md'/>}
+                  image={<img src="/projects/geo-information-system-website.png" alt="Ruang Berproses" className='w-[380px] object-cover rounded-md' />}
                 />
               </div>
             </section>
             <section className='flex flex-col gap-2 text-justify sm:mt-32 mb-10' id='contact'>
               <h1 className='text-4xl font-title font-bold sm:text-5xl mb-2'>Interested in me?</h1>
               <div className='flex flex-col gap-2'>
-                  <div>
-                    If you are interested in me, you can contact me via email or social media.
-                    I do not mind if you want to ask questions or just want to say hello.
-                    I do reply to all emails and messages, so dont hesitate to contact me.
-                  </div>
-                  <div>                
-                    I will be happy to help you.
-                  </div>
+                <div>
+                  If you are interested in me, you can contact me via email or social media.
+                  I do not mind if you want to ask questions or just want to say hello.
+                  I do reply to all emails and messages, so dont hesitate to contact me.
+                </div>
+                <div>
+                  I will be happy to help you.
+                </div>
               </div>
               <div className='flex gap-5 mt-5'>
-                  <a href="https://github.com/argaputra12/" target="_blank" className="hover:cursor-pointer"><SiGithub size={30}/></a>
-                  <a href="https://www.linkedin.com/in/arputwp/" target="_blank" className="hover:cursor-pointer"><BsLinkedin size={30}/></a>
-                  <a href="https://www.instagram.com/arputwp/" target="_blank" className="hover:cursor-pointer"><SiInstagram size={30}/></a>
-                  <a href="mailto:argap1738@gmail.com" target="_blank" className="hover:cursor-pointer"><SiGmail size={30}/></a>
+                <a href="https://github.com/argaputra12/" target="_blank" className="hover:cursor-pointer"><SiGithub size={30} /></a>
+                <a href="https://www.linkedin.com/in/arputwp/" target="_blank" className="hover:cursor-pointer"><BsLinkedin size={30} /></a>
+                <a href="https://www.instagram.com/arputwp/" target="_blank" className="hover:cursor-pointer"><SiInstagram size={30} /></a>
+                <a href="mailto:argap1738@gmail.com" target="_blank" className="hover:cursor-pointer"><SiGmail size={30} /></a>
               </div>
             </section>
           </main>
